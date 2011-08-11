@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+#sbc-wrapper div.postbox-container {
+	float: none;
+	padding: 0;
+	min-width: 440px;
+	width: 440px;
+}
+
+#sbc-wrapper div.postbox div.inside {
+	margin: 14px 18px 18px;
+	position: relative;
+}
+
+#sbc-wrapper div.postbox-container p {
+	margin: 20px 0;
+} 
+
+#sbc-wrapper div.postbox-container label {
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 3px;
+}
+
+#sbc-wrapper div.postbox-container label em {
+	color: #62625A;
+	font-weight: normal;
+}
+
+#sbc-wrapper div.postbox div.inside textarea {
+	width: 100%;
+}
+
+#sbc-wrapper div.postbox div.inside input, #sbc-wrapper div.postbox div.inside textarea {
+	margin: 1px;
+	padding: 3px;
+}
+
+#sbc-wrapper div.postbox div.inside input.error, #sbc-wrapper div.postbox div.inside textarea.error {
+	margin: 1px 1px 3px 1px;
+	padding: 3px;
+}
+
+#sbc-wrapper .tablenav {
+	line-height: 30px;
+}
+
+#sbc-wrapper p.search-box {
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+
+#sbc-wrapper div.loader {
+	display: none;
+	height: 55px;
+}
