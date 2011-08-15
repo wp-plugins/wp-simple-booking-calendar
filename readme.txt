@@ -33,6 +33,7 @@ Features of the full version:
 * WP Simple Booking Calendar Widget
 * Can be translated in any language using PO files
 
+See http://www.simplebookingcalendar.com for more info!
 
 == Installation ==
 
@@ -43,6 +44,7 @@ Features of the full version:
 
 A sidebar widget is also available.
 
+
 == Frequently Asked Questions ==
 
 = How can I embed the calendar on a page or post? =
@@ -52,6 +54,10 @@ Use the 'Generate token' field below your editor.
 = How can I remove the calendar title from displaying? =
 
 Edit the shortcode to include the attribute **title="no"**: [sbc title="no"]
+
+= I have another question =
+
+Please see http://www.simplebookingcalendar.com for more information and ask your questions there!
 
 
 == Screenshots ==
