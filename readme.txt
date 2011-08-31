@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: Bryght, BestWebSoft
-Tags: booking, availability, calendar, scheme, legend, months, days, date, events, hotel, holiday home, room
+Tags: availability, calendar, booking, reservation, scheme, legend, months, days, time, date, events, hotel, holiday home, room, bed, breakfast
 Requires at least: 3.0
 Tested up to: 3.2.1
 Stable tag: 1.0
@@ -9,7 +9,9 @@ WP Simple Booking Calendar
 
 
 == Description ==
-Usage:
+See http://www.simplebookingcalendar.com for more info!
+
+You can use the calendar as:
 
 * Availability calendar for a holiday house
 * Availability calendar for a Bed & Breakfast
@@ -32,8 +34,8 @@ Features of the full version:
 * Generate a token to insert the calendar in a page or post
 * WP Simple Booking Calendar Widget
 * Can be translated in any language using PO files
+* Download the full version at: http://www.simplebookingcalendar.com
 
-See http://www.simplebookingcalendar.com for more info!
 
 == Installation ==
 
