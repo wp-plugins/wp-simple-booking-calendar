@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: Bryght, BestWebSoft
-Tags: availability, calendar, booking, reservation, scheme, legend, months, days, time, date, events, hotel, holiday home, room, bed, breakfast
+Tags: calendar, availability, availability calendar, booking, booking calendar, reservation, reservation calendar, scheme, legend, months, days, time, date, events, hotel, holiday home, room, bed, breakfast
 Requires at least: 3.0
 Tested up to: 3.3
 Stable tag: 1.0
