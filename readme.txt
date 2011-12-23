@@ -2,7 +2,7 @@
 Contributors: Bryght, BestWebSoft
 Tags: availability, calendar, booking, reservation, scheme, legend, months, days, time, date, events, hotel, holiday home, room, bed, breakfast
 Requires at least: 3.0
-Tested up to: 3.2.1
+Tested up to: 3.3
 Stable tag: 1.0
 
 WP Simple Booking Calendar
