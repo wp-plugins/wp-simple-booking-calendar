@@ -2,7 +2,7 @@
 Contributors: Bryght, BestWebSoft
 Tags: calendar, availability, availability calendar, booking, booking calendar, reservation, reservation calendar, scheme, legend, months, days, time, date, events, hotel, holiday home, room, bed, breakfast
 Requires at least: 3.0
-Tested up to: 3.3
+Tested up to: 3.3.1
 Stable tag: 1.0
 
 WP Simple Booking Calendar
@@ -51,11 +51,11 @@ A sidebar widget is also available.
 
 = How can I embed the calendar on a page or post? =
 
-Use the 'Generate token' field below your editor.
+Use the 'Generate token' field below your editor. An example of a token: [sbc id="1" legend="no" title="yes" view="1"]. If you paste this token in a page it will show the calendar with ID 1, no legend, with title and a 1 month view.
 
 = How can I remove the calendar title from displaying? =
 
-Edit the shortcode to include the attribute **title="no"**: [sbc title="no"]
+Edit the shortcode: title="no".
 
 = I have another question =
 
