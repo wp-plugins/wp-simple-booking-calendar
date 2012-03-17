@@ -30,7 +30,7 @@ Features of the full version:
 
 * Create an unlimited number of calendars
 * Show a legend near the calendar
-* Two month view
+* Multiple month view
 * Generate a token to insert the calendar in a page or post
 * WP Simple Booking Calendar Widget
 * Can be translated in any language using PO files
