@@ -1,17 +1,17 @@
 <?php
 /**
  * Plugin Name: WP Simple Booking Calendar
- * Plugin URI:  http://www.simplebookingcalendar.com
+ * Plugin URI:  http://www.wpsimplebookingcalendar.com
  * Description: WP Simple Booking Calendar - Free Version.
  * Version:     1.0
  * Author:      WP Simple Booking Calendar
- * Author URI:  http://www.simplebookingcalendar.com
+ * Author URI:  http://www.wpsimplebookingcalendar.com
  * License:     GPL2
  *
  * Copyright (c) 2011 WP Simple Booking Calendar
  */
  
- /*  Copyright 2011  LWP Simple Booking Calendar
+ /*  Copyright 2011  WP Simple Booking Calendar
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 

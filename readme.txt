@@ -9,7 +9,7 @@ WP Simple Booking Calendar
 
 
 == Description ==
-See http://www.simplebookingcalendar.com for more info!
+See http://www.wpsimplebookingcalendar.com for more info!
 
 You can use the calendar as:
 
@@ -34,7 +34,7 @@ Features of the full version:
 * Generate a token to insert the calendar in a page or post
 * WP Simple Booking Calendar Widget
 * Can be translated in any language using PO files
-* Download the full version at: http://www.simplebookingcalendar.com
+* Download the full version at: http://www.wpsimplebookingcalendar.com
 
 
 == Installation ==
@@ -59,7 +59,7 @@ Edit the shortcode: title="no".
 
 = I have another question =
 
-Please see http://www.simplebookingcalendar.com for more information and ask your questions there!
+Please see http://www.wpsimplebookingcalendar.com for more information and ask your questions there!
 
 
 == Screenshots ==
