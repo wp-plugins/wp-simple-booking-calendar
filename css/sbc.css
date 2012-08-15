@@ -142,3 +142,5 @@
 .alignRight {
 	text-align: right !important;
 }
+
+span.powered-by {width:192px; text-align:center; padding-top:3px; clear:both;  }
