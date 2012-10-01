@@ -5,7 +5,7 @@ Requires at least: 3.0
 Tested up to: 3.4.2
 Stable tag: 1.0
 
-A simple and free availability calendar to show when something is booked or free, for example your holiday home.
+Availability calendar / booking calendar to show when something is booked or free, for example your holiday home.
 
 
 == Description ==
@@ -13,8 +13,8 @@ See http://www.wpsimplebookingcalendar.com for more info!
 
 You can use the calendar as:
 
-* Availability calendar for a holiday house
-* Availability calendar for a Bed & Breakfast
+* Availability calendar / booking calendar for a holiday house
+* Availability calendar / booking calendar for a Bed & Breakfast
 * Reservation scheme for an object
 * Availability of employees
 * Whatever you like!
