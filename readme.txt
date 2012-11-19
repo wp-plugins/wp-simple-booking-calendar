@@ -9,7 +9,7 @@ Availability calendar / booking calendar to show when something is booked or fre
 
 
 == Description ==
-See http://www.wpsimplebookingcalendar.com for more info!
+Availability calendar for WordPress. See http://www.wpsimplebookingcalendar.com for more info!
 
 You can use the calendar as:
 
