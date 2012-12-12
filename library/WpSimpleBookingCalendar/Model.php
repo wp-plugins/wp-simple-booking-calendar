@@ -79,7 +79,7 @@ class WpSimpleBookingCalendar_Model
         if (isset($calendar[1])) {
             $calendar = $calendar[1];
         }
-		return (array_key_exists('calendarName', $calendar) ? $calendar : null);
+		return @(array_key_exists('calendarName', $calendar) ? $calendar : null);
 	}
 	
 	

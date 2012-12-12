@@ -23,8 +23,11 @@ class WpSimpleBookingCalendar
 		}
 		else
 		{
-			wp_enqueue_style('sbc', SBC_DIR_URL . 'css/sbc.css');
+		  function enq_styles(){
+		      wp_enqueue_style('sbc', SBC_DIR_URL . 'css/sbc.css');
 			wp_enqueue_script('sbc', SBC_DIR_URL . 'js/sbc.js', array('jquery'));
+		  }    
+	      add_action('init', 'enq_styles');
 		}
 		
 		// Register shortcode

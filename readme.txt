@@ -2,8 +2,8 @@
 Contributors: Bryght, BestWebSoft
 Tags: availability calendar, booking calendar, reservation calendar, availability, booking, calendar, hotel, holiday home, dateblocker, date blocker, scheme, bed and breakfast
 Requires at least: 3.0
-Tested up to: 3.4.2
-Stable tag: 1.0
+Tested up to: 3.5
+Stable tag: 1.1
 
 Availability calendar / booking calendar to show when something is booked or free, for example your holiday home.
 
@@ -70,9 +70,17 @@ Please see http://www.wpsimplebookingcalendar.com for more information and ask y
 
 == Changelog ==
 
+= 1.1 =
+* Fixed Warning: array_key_exists() error some users experienced
+* Fixed enqueue_scripts
+
 = 1.0 =
 * First release
 
 == Upgrade Notice ==
+
+= 1.1 =
+* Two small fixes
+
 = 1.0 =
 * Stable release
