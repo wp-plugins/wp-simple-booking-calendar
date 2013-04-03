@@ -1,0 +1,109 @@
+<?php
+/**
+ * @package WP Simple Booking Calendar
+ *
+ * Copyright (c) 2010 Lennart Visscher
+ */
+?>
+
+<div id="sbc-wrapper" class="wrap">
+	<div id="icon-options-general" class="icon32"><br /></div>
+	<h2><?php esc_html_e('WP Simple Booking Calendar', 'sbc') ?> 
+	<?php if (!is_array($this->calendar) || count($this->calendar) == 0): ?>
+		<a class="button add-new-h2" href="<?php echo esc_url($this->controllerUrl) ?>&amp;action=add"><?php esc_html_e('Add New', 'sbc') ?></a>
+	<?php endif; ?>
+	</h2>
+	
+	<?php if (is_array($this->calendar) && count($this->calendar)): ?>
+		<table class="widefat post fixed" cellspacing="0">
+			<thead>
+				<tr class="alt">
+					<th class="manage-column column-name"><?php esc_html_e('Calendar Name', 'sbc') ?></th>
+					<th class="manage-column column-created"><?php esc_html_e('Created', 'sbc') ?></th>
+					<th class="manage-column column-modified"><?php esc_html_e('Modified', 'sbc') ?></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr valign="top">
+					<td class="post-title column-title">
+						<strong><a title="<?php esc_attr_e('Edit', 'sbc') ?> ‟<?php echo esc_attr($this->calendar['calendarName']) ?>”" href="<?php echo esc_url($this->controllerUrl) ?>&amp;action=edit" class="row-title"><?php echo esc_html($this->calendar['calendarName']) ?></a></strong>
+						<div class="row-actions">
+							<span class="edit"><a title="<?php esc_attr_e('Edit this calendar', 'sbc') ?>" href="<?php echo esc_url($this->controllerUrl) ?>&amp;action=edit"><?php esc_html_e('Edit', 'sbc') ?></a> | </span>
+							<span class="trash"><a title="<?php esc_attr_e('Are you sure you want to delete this calendar?', 'sbc') ?>" href="<?php echo esc_url($this->controllerUrl) ?>&amp;action=delete" class="submitdelete"><?php esc_html_e('Delete', 'sbc') ?></a></span>
+						</div>
+					</td>
+					<td class="street column-created">
+						<?php echo esc_html(date($this->dateFormat, $this->calendar['dateCreated'])) ?><br/>
+						<?php echo esc_html(date($this->timeFormat, $this->calendar['dateCreated'])) ?>
+					</td>
+					<td class="street column-modified">
+						<?php echo esc_html(date($this->dateFormat, $this->calendar['dateModified'])) ?><br/>
+						<?php echo esc_html(date($this->timeFormat, $this->calendar['dateModified'])) ?>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	<div class="buy-full">
+		<h1>Download the full version for more nice features!</h1>
+        <ul>
+            <li class="title">
+                <span class="col1"></span>
+                <span class="col2">Free version</span>
+                <span class="col3">Full version</span>
+                <div class="clear"><!-- --></div>
+            </li>
+            <li>
+                <span class="col1">Number of calendars</span>
+                <span class="col2">1</span>
+                <span class="col3">Unlimited</span>
+                <div class="clear"><!-- --></div>
+            </li>
+            <li class="even">
+                <span class="col1">Edit multiple dates in one click</span>
+                <span class="col2">-</span>
+                <span class="col3"><img src="<?php echo SBC_DIR_URL ;?>images/checked.png" /></span>
+                <div class="clear"><!-- --></div>
+            </li>
+            <li>
+                <span class="col1">Show multiple months</span>
+                <span class="col2">-</span>
+                <span class="col3"><img src="<?php echo SBC_DIR_URL ;?>images/checked.png" /></span>
+                <div class="clear"><!-- --></div>
+            </li>
+            <li class="even">
+                <span class="col1">Show a legend (key)</span>
+                <span class="col2">-</span>
+                <span class="col3"><img src="<?php echo SBC_DIR_URL ;?>images/checked.png" /></span>
+                <div class="clear"><!-- --></div>
+            </li>
+            <li>
+                <span class="col1">Months dropdown</span>
+                <span class="col2">-</span>
+                <span class="col3"><img src="<?php echo SBC_DIR_URL ;?>images/checked.png" /></span>
+                <div class="clear"><!-- --></div>
+            </li>
+            <li class="even">
+                <span class="col1">Change first day of week</span>
+                <span class="col2">-</span>
+                <span class="col3"><img src="<?php echo SBC_DIR_URL ;?>images/checked.png" /></span>
+                <div class="clear"><!-- --></div>
+            </li>
+            <li>
+                <span class="col1">Save notes per date</span>
+                <span class="col2">-</span>
+                <span class="col3"><img src="<?php echo SBC_DIR_URL ;?>images/checked.png" /></span>
+                <div class="clear"><!-- --></div>
+            </li>
+            <li class="even">
+                <span class="col1">Money back guarantee!</span>
+                <span class="col2">-</span>
+                <span class="col3"><img src="<?php echo SBC_DIR_URL ;?>images/checked.png" /></span>
+                <div class="clear"><!-- --></div>
+            </li>
+            <p>Just $25, <strong>no</strong> subscription or registration needed! <a class="button-primary button" href="http://www.wpsimplebookingcalendar.com/" target="_blank">Read more</a></p>
+        </ul>
+	</div>
+	<?php else: ?>
+		<p><?php esc_html_e('No calendar found.', 'sbc') ?></p>
+	<?php endif ?>
+</div>

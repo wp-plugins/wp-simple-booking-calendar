@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+#sbc-wrapper div.postbox-container {
+	float: none;
+	padding: 0;
+	min-width: 440px;
+	width: 440px;
+}
+
+#sbc-wrapper div.postbox div.inside {
+	margin: 14px 18px 18px;
+	position: relative;
+}
+
+#sbc-wrapper div.postbox-container p {
+	margin: 20px 0;
+} 
+
+#sbc-wrapper div.postbox-container label {
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 3px;
+}
+
+#sbc-wrapper div.postbox-container label em {
+	color: #62625A;
+	font-weight: normal;
+}
+
+#sbc-wrapper div.postbox div.inside textarea {
+	width: 100%;
+}
+
+#sbc-wrapper div.postbox div.inside input, #sbc-wrapper div.postbox div.inside textarea {
+	margin: 1px;
+	padding: 3px;
+}
+
+#sbc-wrapper div.postbox div.inside input.error, #sbc-wrapper div.postbox div.inside textarea.error {
+	margin: 1px 1px 3px 1px;
+	padding: 3px;
+}
+
+#sbc-wrapper .tablenav {
+	line-height: 30px;
+}
+
+#sbc-wrapper p.search-box {
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+
+#sbc-wrapper div.loader {
+	display: none;
+	height: 55px;
+}
+
+
+div.buy-full h1 {font-weight:bold; font-size:20px; line-height:30px; margin-top:30px;}
+div.buy-full ul {width:466px; border:1px solid #336699; padding:0 6px 6px 6px;}
+div.buy-full ul li {width:466px; height:30px; background-color:#f9f9f9; margin-bottom:0px !important;}
+div.buy-full ul li.even {background-color:#ffffff;}
+div.buy-full ul li span {float:left; display:block; color:#000000; font-size:14px; line-height:30px;}
+div.buy-full ul li span.col1 {width:216px; padding-left:6px; margin-right:10px;}
+div.buy-full ul li span.col2 {width:100px; text-align:center; margin-right:20px;}
+div.buy-full ul li span.col3 {width:100px; text-align:center; position:relative;}
+div.buy-full ul li span.col3 img {position:absolute; top:7px; left:50%; margin-left:-8px;}
+
+div.buy-full ul li.title {background-color:#ffffff; border-bottom:1px solid #cccccc;}
+div.buy-full ul li.title span.col1 {height:2px;}
+div.buy-full ul li.title span.col2 {font-weight:bold;}
+div.buy-full ul li.title span.col3 {font-weight:bold; color:#336699;}
+
+div.buy-full p {border-top:1px solid #cccccc; color:#336699; font-size:14px; line-height:30px; margin:0; padding:15px 0 10px 0;}
+div.buy-full p strong {font-weight:normal; text-decoration:underline;}
+
+div.buy-full a.button {margin-left:55px;}
