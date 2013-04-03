@@ -46,7 +46,7 @@ jQuery(function($) {
 	});
 	
 	// Status selector
-	$('#sbc-editor select').live('change', function() {
+	$(document).on('change', '#sbc-editor select', function() {
 		var $this = $(this);
 		var statusClass = $this.find('option:selected').attr('class');
 		
@@ -94,12 +94,12 @@ jQuery(function($) {
 		});
 	}
 		
-	$('a.sbc-prev-month, a.sbc-next-month', $('#sbc-calendar-wrapper')).live('click', function(event) {
+	$($('#sbc-calendar-wrapper')).on('click','a.sbc-prev-month, a.sbc-next-month',  function(event) {
 		event.preventDefault();
 		ajaxCalendarUpdate($(this).is('.sbc-prev-month') ? 'prevMonth' : 'nextMonth');
 	});
 	
-	$('#sbc-calendar .sbc-navigation select').live('change', function() {
+	$(document).on('change','#sbc-calendar .sbc-navigation select', function() {
 		ajaxCalendarUpdate('date');
 	});
 });

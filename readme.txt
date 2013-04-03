@@ -1,9 +1,9 @@
 === WP Simple Booking Calendar ===
 Contributors: Bryght, BestWebSoft
-Tags: availability calendar, booking calendar, reservation calendar, availability, booking, calendar, hotel, holiday home, dateblocker, date blocker, scheme, bed and breakfast
+Tags: availability calendar, booking calendar, reservation calendar, availability, booking, calendar, hotel, holiday home, dateblocker, date blocker, scheme, bed and breakfast, belegungsplan
 Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 1.1
+Tested up to: 3.5.1
+Stable tag: 1.2
 
 Availability calendar / booking calendar to show when something is booked or free, for example your holiday home.
 
@@ -70,6 +70,9 @@ Please see http://www.wpsimplebookingcalendar.com for more information and ask y
 
 == Changelog ==
 
+= 1.2 =
+* Changed .live() to .on() for better compatibility with jQuery
+
 = 1.1 =
 * Fixed Warning: array_key_exists() error some users experienced
 * Fixed enqueue_scripts
@@ -78,6 +81,9 @@ Please see http://www.wpsimplebookingcalendar.com for more information and ask y
 * First release
 
 == Upgrade Notice ==
+
+= 1.2 =
+* Small improvement for the free version
 
 = 1.1 =
 * Two small fixes

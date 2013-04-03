@@ -34,7 +34,7 @@ jQuery(function($) {
 		}
 		
 		// Prev/next month
-		$('a.sbc-prev-month, a.sbc-next-month', $calendar).live('click', function(event) {
+		$($calendar).on('click','a.sbc-prev-month, a.sbc-next-month', function(event) {
 			event.preventDefault();
 			ajaxCalendarUpdate($(this).is('.sbc-prev-month') ? 'prevMonth' : 'nextMonth');
 		});
