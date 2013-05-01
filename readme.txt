@@ -5,18 +5,19 @@ Requires at least: 3.0
 Tested up to: 3.5.1
 Stable tag: 1.2
 
-Availability calendar / booking calendar to show when something is booked or free, for example your holiday home.
-
+This booking calendar shows when something is booked or available. Use it to show when your holiday home is available for rent, for example.
 
 == Description ==
-Availability calendar for WordPress. See http://www.wpsimplebookingcalendar.com for more info!
 
-You can use the calendar as:
+Do you have something that you rent out, such as a holiday home or piece of equipment? Do you want to show people when it is available for rent? You can create, edit and publish an availability calendar with just a few clicks with the WP Simple Booking Calendar. This booking calendar is very easy to use! You can manage the availability (bookings) on a daily basis and embedding the booking calendar on a page takes only one mouse click. You can also use the WP Simple Booking Calendar Widget to show a calendar on your WordPress website. Check out http://www.wpsimplebookingcalendar.com for more information.
 
-* Availability calendar / booking calendar for a holiday house
-* Availability calendar / booking calendar for a Bed & Breakfast
-* Reservation scheme for an object
-* Availability of employees
+You can use this booking calendar as:
+
+* A booking calendar for a holiday home, bed & breakfast, condo or hotel
+* An availability calendar for a room or office
+* An availability calendar for  a car or boat
+* A reservation scheme for equipment
+* A shift calendar
 * Whatever you like!
 
 Features of the free version:
@@ -24,16 +25,18 @@ Features of the free version:
 * Create a calendar and set status per date
 * Generate a token to insert the calendar in a page or post
 * WP Simple Booking Calendar Widget
-* Can be translated in any language using PO files
+* Can be translated into other languages using PO files
 
 Features of the full version:
 
 * Create an unlimited number of calendars
 * Show a legend near the calendar
 * Multiple month view
+* Add and save your notes for each day on each of your calendars
+* Edit multiple days in one click
 * Generate a token to insert the calendar in a page or post
 * WP Simple Booking Calendar Widget
-* Can be translated in any language using PO files
+* Can be translated into other languages using PO files
 * Download the full version at: http://www.wpsimplebookingcalendar.com
 
 
