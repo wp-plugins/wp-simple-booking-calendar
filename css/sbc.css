@@ -7,6 +7,12 @@
 	overflow: hidden;
 }
 
+#sbc-calendar-wrapper, #sbc-calendar-wrapper * {
+    -webkit-box-sizing: content-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: content-box;    /* Firefox, other Gecko */
+	box-sizing: content-box; 
+}
+
 #sbc-calendar-wrapper .sbc-status-free {
 	background-color: #dfc;
 }
