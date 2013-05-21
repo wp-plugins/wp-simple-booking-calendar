@@ -9,32 +9,32 @@ This booking calendar shows when something is booked or available. Use it to sho
 
 == Description ==
 
-Do you have something that you rent out, such as a holiday home or piece of equipment? Do you want to show people when it is available for rent? You can create, edit and publish an availability calendar with just a few clicks with the WP Simple Booking Calendar. This booking calendar is very easy to use! You can manage the availability (bookings) on a daily basis and embedding the booking calendar on a page takes only one mouse click. You can also use the WP Simple Booking Calendar Widget to show a calendar on your WordPress website. Check out http://www.wpsimplebookingcalendar.com for more information.
+Do you have something that you rent out, such as a holiday home or piece of equipment? Do you want to show people when it is available for rent? You can create, edit and publish an availability calendar with just a few clicks with the WP Simple Booking Calendar. This booking calendar is very easy to use! You can manage the availability (bookings) on a daily basis and embedding the booking calendar on a page takes only one mouse click. You can also use the WP Simple Booking Calendar Widget to show a booking calendar on your WordPress website. Check out http://www.wpsimplebookingcalendar.com for more information.
 
 You can use this booking calendar as:
 
-* A booking calendar for a holiday home, bed & breakfast, condo or hotel
-* An availability calendar for a room or office
-* An availability calendar for  a car or boat
+* Booking calendar / availability calendar for a holiday home, bed & breakfast, condo or hotel
+* Booking calendar / availability calendar for a room or office
+* Booking calendar / availability calendar for  a car or boat
 * A reservation scheme for equipment
 * A shift calendar
 * Whatever you like!
 
 Features of the free version:
 
-* Create a calendar and set status per date
-* Generate a token to insert the calendar in a page or post
+* Create a booking calendar and set status per date
+* Generate a token to insert the booking calendar in a page or post
 * WP Simple Booking Calendar Widget
 * Can be translated into other languages using PO files
 
 Features of the full version:
 
-* Create an unlimited number of calendars
-* Show a legend near the calendar
+* Create an unlimited number of booking calendars
+* Show a legend near the booking calendar
 * Multiple month view
-* Add and save your notes for each day on each of your calendars
+* Add and save your notes for each day on each of your booking calendars
 * Edit multiple days in one click
-* Generate a token to insert the calendar in a page or post
+* Generate a token to insert the booking calendar in a page or post
 * WP Simple Booking Calendar Widget
 * Can be translated into other languages using PO files
 * Download the full version at: http://www.wpsimplebookingcalendar.com
