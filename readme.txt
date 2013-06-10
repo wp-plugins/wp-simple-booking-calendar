@@ -22,7 +22,7 @@ You can use this booking calendar as:
 
 Features of the free version:
 
-* Create a booking calendar and set status per date
+* Create a booking calendar and set a status per date
 * Generate a token to insert the booking calendar in a page or post
 * WP Simple Booking Calendar Widget
 * Can be translated into other languages using PO files
@@ -30,10 +30,12 @@ Features of the free version:
 Features of the full version:
 
 * Create an unlimited number of booking calendars
-* Show a legend near the booking calendar
 * Multiple month view
+* Show a legend near the booking calendar
+* Change the first day of the week
 * Add and save your notes for each day on each of your booking calendars
 * Edit multiple days in one click
+* Users with the Editor role also have access to the calendars
 * Generate a token to insert the booking calendar in a page or post
 * WP Simple Booking Calendar Widget
 * Can be translated into other languages using PO files
