@@ -1,6 +1,6 @@
 === WP Simple Booking Calendar ===
 Contributors: Bryght, BestWebSoft
-Tags: availability calendar, booking calendar, reservation calendar, availability, booking, calendar, hotel, holiday home, dateblocker, date blocker, scheme, bed and breakfast, belegungsplan
+Tags: availability calendar, booking calendar, reservation calendar, availability, booking, bookings, calendar, scheduling, schedule, rooms, hotel, holiday home, dateblocker, date blocker, scheme, bed and breakfast, belegungsplan
 Requires at least: 3.0
 Tested up to: 3.5.1
 Stable tag: 1.2
