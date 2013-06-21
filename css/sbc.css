@@ -61,8 +61,10 @@
 }
 
 #sbc-calendar .sbc-navigation select {
-	margin: 0;
+	margin: 0; padding: 0 !important; width: auto; height: auto; 
 }
+
+#sbc-calendar form {margin: 0 !important;}
 
 #sbc-calendar .sbc-loader {
 	background-color: #ffc0bd;
