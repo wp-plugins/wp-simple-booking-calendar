@@ -80,3 +80,7 @@ div.buy-full .box small.bottom {color:#666666; font-size:12px; display:block; te
 
 
 
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    div.buy-full .box.first div.bottom {margin-top:325px;}
+    div.buy-full .box p {padding:13px 20px 10px 20px;}
+}
