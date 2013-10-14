@@ -30,15 +30,17 @@ Features of the free version:
 Features of the full version:
 
 * Create an unlimited number of booking calendars
-* Multiple month view
-* Show a legend near the booking calendar
+* Display multiple months
+* Edit multiple dates with one click
+* Display a legend near the calendar
+* Create your own legend (apply your own colours and translations)
 * Change the first day of the week
-* Add and save your notes for each day on each of your booking calendars
-* Edit multiple days in one click
+* Change the start month / year
+* Add and save booking information for each day on each of your booking calendars
 * Users with the Editor role also have access to the booking calendars
 * Generate a token to insert the booking calendar in a page or post
 * WP Simple Booking Calendar Widget (booking calendar as widget)
-* Can be translated into other languages using PO files
+* Easy to translate into your own language
 * Download the full version at: http://www.wpsimplebookingcalendar.com
 
 
