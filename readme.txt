@@ -2,7 +2,7 @@
 Contributors: Bryght, BestWebSoft
 Tags: booking calendar, bookings, booking, bookable, calendar, availability calendar, availability, reservation calendar, reservations, scheduling, schedule, rooms, hotel, holiday home, accommodations, dateblocker, date blocker, bed and breakfast, belegungsplan, beschikbaarheidskalender
 Requires at least: 3.0
-Tested up to: 3.6.1
+Tested up to: 3.7
 Stable tag: 1.2
 
 This booking calendar shows when something is booked or available. Use it to show when your holiday home is available for rent, for example.
