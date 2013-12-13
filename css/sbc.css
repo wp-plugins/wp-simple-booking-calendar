@@ -31,7 +31,13 @@
 	border-spacing: 2px;
 	table-layout: fixed;
 	margin: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
 	padding: 0;
+}
+#sbc-calendar-wrapper table tr, #sbc-calendar-wrapper table th {
+    background: none !important;
 }
 
 #sbc-calendar-wrapper table tr td {
@@ -92,6 +98,7 @@
 	padding: 8px 0 4px;
 	width: 22px;
 	height: 22px;
+    border:none;
 }
 
 #sbc-calendar table tfoot td {
