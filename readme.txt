@@ -41,7 +41,7 @@ Features of the Premium version:
 * Generate a token to insert the booking calendar in a page or post
 * WP Simple Booking Calendar Widget (booking calendar as widget)
 * Easy to translate into your own language
-* Download the full version at: http://www.wpsimplebookingcalendar.com
+* Download the Premium version at: http://www.wpsimplebookingcalendar.com
 
 
 == Installation ==
