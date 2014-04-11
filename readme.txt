@@ -20,14 +20,14 @@ You can use this booking calendar as:
 * A shift calendar
 * Whatever you like!
 
-Features of the free version:
+Features of the Free version:
 
 * Create a booking calendar and set a status per date
 * Generate a token to insert the booking calendar in a page or post
 * WP Simple Booking Calendar Widget (booking calendar as widget)
 * Can be translated into other languages using PO files
 
-Features of the full version:
+Features of the Premium version:
 
 * Create an unlimited number of booking calendars
 * Display multiple months
@@ -41,7 +41,7 @@ Features of the full version:
 * Generate a token to insert the booking calendar in a page or post
 * WP Simple Booking Calendar Widget (booking calendar as widget)
 * Easy to translate into your own language
-* Download the full version at: http://www.wpsimplebookingcalendar.com
+* Download the Premium version at: http://www.wpsimplebookingcalendar.com
 
 
 == Installation ==
