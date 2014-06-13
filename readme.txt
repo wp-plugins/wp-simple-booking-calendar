@@ -2,7 +2,7 @@
 Contributors: Bryght, BestWebSoft
 Tags: booking calendar, bookings, booking, bookable, calendar, availability calendar, availability, reservation calendar, reservations, scheduling, schedule, rooms, hotel, holiday home, accommodations, dateblocker, date blocker, bed and breakfast, belegungsplan, beschikbaarheidskalender
 Requires at least: 3.0
-Tested up to: 3.9
+Tested up to: 3.9.1
 Stable tag: 1.3
 
 This booking calendar shows when something is booked or available. Use it to show when your holiday home is available for rent, for example.
@@ -38,6 +38,8 @@ Features of the Premium version:
 * Change the start month / year
 * Add and save booking information for each day on each of your booking calendars
 * User management: assign users to calendars
+* Display a tooltip with info (you can enter info for each day)
+* Show the week's number
 * Generate a token to insert the booking calendar in a page or post
 * WP Simple Booking Calendar Widget (booking calendar as widget)
 * Easy to translate into your own language
