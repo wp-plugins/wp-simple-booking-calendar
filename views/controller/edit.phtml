@@ -8,7 +8,7 @@
 
 <div id="sbc-wrapper" class="wrap">
 	<div id="icon-options-general" class="icon32"><br /></div>
-	<h2><a href="<?php echo esc_url($this->controllerUrl) ?>"><?php esc_html_e('WP Simple Booking Calendar', 'sbc') ?></a></h2>
+	<h2><a href="<?php echo $this->controllerUrl ?>"><?php esc_html_e('WP Simple Booking Calendar', 'sbc') ?></a></h2>
 	
 	<div class="postbox-container">
 		<div class="metabox-holder">
@@ -31,8 +31,7 @@
 					</div>
 					
 					<p class="submit">
-						<?php wp_nonce_field($this->onceAction) ?>
-						<input type="hidden" name="action" value="save" />
+						<?php wp_nonce_field($this->nonceAction) ?>
 						<input type="hidden" name="calendarData" value="" />
 						<input class="button-primary" type="submit" name="submit" value="<?php esc_attr_e('Save Changes', 'sbc') ?>" />
 					</p>

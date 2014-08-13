@@ -180,15 +180,32 @@ class WpSimpleBookingCalendar_Controller
 	}
 	
 	/**
+	 * Generate Nonce to protect users from CSRF attacks
+	 * 
+	 * @param string $action Name of the action
+	 * @param integer $id Optional identifier
+	 * @return string
+	 */
+	protected function _generateNonceAction($action, $id = 0) {
+		global $wp_version;
+		return implode('-', array(get_home_url(), $wp_version, self::HOOK, $action, get_current_user_id(), $id));
+	}
+	
+	/**
 	 * Action: list of calendars
 	 * @return void
 	 */
 	public function indexAction()
 	{
 		$searchQuery = filter_input(INPUT_GET, 'search', FILTER_SANITIZE_STRING);
+		$addControllerUrl = wp_nonce_url( $this->getControllerUrl() . '&action=add', $this->_generateNonceAction('add') );
+		$editControllerUrl = wp_nonce_url( $this->getControllerUrl() . '&action=edit', $this->_generateNonceAction('edit') );
+		$deleteControllerUrl = wp_nonce_url( $this->getControllerUrl() . '&action=delete', $this->_generateNonceAction('delete') );
 		
 		$this->_view->setTemplate('controller/index')
-			->assign('controllerUrl', $this->getControllerUrl())
+			->assign('addControllerUrl', $addControllerUrl)
+			->assign('editControllerUrl', $editControllerUrl)
+			->assign('deleteControllerUrl', $deleteControllerUrl)
 			->assign('calendar', $this->_model->getCalendar())
 			->assign('dateFormat', get_option('date_format'))
 			->assign('timeFormat', get_option('time_format'))
@@ -203,10 +220,12 @@ class WpSimpleBookingCalendar_Controller
 	public function addAction()
 	{
 		$formData = $this->_processFormData();
+		$nonceAction = $this->_generateNonceAction('add');
+		check_admin_referer( $nonceAction );
 		
-		if (!empty($_POST))
+		if (!empty($_POST['_wpnonce']))
 		{
-			if ($this->_model->insertCalendar($formData))
+			if (wp_verify_nonce( $_POST['_wpnonce'], $nonceAction) && $this->_model->insertCalendar($formData))
 			{
 				$this->_view->messageHelper(__('Calendar Added', 'sbc'));
 				$this->indexAction();
@@ -223,7 +242,7 @@ class WpSimpleBookingCalendar_Controller
 			->assign('calendarName', $formData['calendarName'])
 			->assign('calendarData', json_decode($formData['calendarJson']))
 			->assign('actionName', __('Add New Calendar', 'sbc'))
-			->assign('onceAction', self::HOOK)
+			->assign('nonceAction', $nonceAction)
 			->render();
 	}
 	
@@ -233,10 +252,13 @@ class WpSimpleBookingCalendar_Controller
 	 */
 	public function editAction()
 	{
-		if (!empty($_POST))
+		$nonceAction = $this->_generateNonceAction('edit');
+		check_admin_referer( $nonceAction );
+		
+		if (!empty($_POST['_wpnonce']))
 		{
 			$formData = $this->_processFormData();
-			if ($this->_model->updateCalendar($formData))
+			if (wp_verify_nonce( $_POST['_wpnonce'], $nonceAction) && $this->_model->updateCalendar($formData))
 			{
 				$this->_view->messageHelper(__('Calendar Updated', 'sbc'));
 				$this->indexAction();
@@ -263,7 +285,7 @@ class WpSimpleBookingCalendar_Controller
 			->assign('calendarName', $formData['calendarName'])
 			->assign('calendarData', json_decode($formData['calendarJson']))
 			->assign('actionName', __('Edit Calendar', 'sbc'))
-			->assign('onceAction', self::HOOK)
+			->assign('nonceAction', $nonceAction)
 			->render();
 	}
 	
@@ -273,7 +295,10 @@ class WpSimpleBookingCalendar_Controller
 	 */
 	public function deleteAction()
 	{
-		if (!$this->_model->getCalendar())
+		$nonceAction = $this->_generateNonceAction('delete');
+		check_admin_referer( $nonceAction );
+		
+		if (!isset($_GET['_wpnonce']) || !wp_verify_nonce( $_GET['_wpnonce'], $nonceAction) || !$this->_model->getCalendar())
 		{
 			$message = __('No calendar found', 'sbc');
 		}
