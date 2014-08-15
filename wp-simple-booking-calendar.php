@@ -3,7 +3,7 @@
  * Plugin Name: WP Simple Booking Calendar
  * Plugin URI:  http://www.wpsimplebookingcalendar.com
  * Description: WP Simple Booking Calendar - Free Version.
- * Version:     1.4
+ * Version:     1.4.1
  * Author:      WP Simple Booking Calendar
  * Author URI:  http://www.wpsimplebookingcalendar.com
  * License:     GPL2

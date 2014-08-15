@@ -187,8 +187,11 @@ class WpSimpleBookingCalendar_Controller
 	 * @return string
 	 */
 	protected function _generateNonceAction($action, $id = 0) {
-		global $wp_version;
-		return implode('-', array(get_home_url(), $wp_version, self::HOOK, $action, get_current_user_id(), $id));
+		$pieces = array(self::HOOK, $action);
+		if ($id !== 0) {
+			array_push($pieces, $id);
+		}
+		return implode('-', $pieces);
 	}
 	
 	/**
