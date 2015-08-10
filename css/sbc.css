@@ -161,3 +161,6 @@
 }
 
 span.powered-by {width:192px; text-align:center; padding-top:3px; clear:both;  }
+
+div#sbc-calendar-wrapper p { padding:0 !important;}
+div#sbc-calendar-wrapper br {display:none !important;}
