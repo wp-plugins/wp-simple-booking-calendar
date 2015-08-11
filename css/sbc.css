@@ -67,7 +67,7 @@
 }
 
 #sbc-calendar .sbc-navigation select {
-	margin: 0; padding: 0 !important; width: auto; height: auto; 
+	margin: 0; padding: 0 !important; width: auto; height: auto;  font-size: 14px;
 }
 
 #sbc-calendar form {margin: 0 !important;}
